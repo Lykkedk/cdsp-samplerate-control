@@ -1,4 +1,6 @@
 # cdsp-samplerate-control
+*Only for betatesters or the brave one's - this is just a quick howto*
+
 ### SuperPlayer's CamillaDSP SampleRate Controller & pCP Combo
 ### Verified on piCorePlayer 6.1 on an Raspberry Pi 3 & 4
 
