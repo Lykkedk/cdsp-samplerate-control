@@ -82,6 +82,39 @@ pcm.camilladsp {
       ]
 }
 ```
+You need to change the hw and card on top of it to your'e actually hardware.
+My hardware shows ::
+```
+tc@piCorePlayer:~$ aplay -l
+**** List of PLAYBACK Hardware Devices ****
+card 0: ALSA [bcm2835 ALSA], device 0: bcm2835 ALSA [bcm2835 ALSA]
+  Subdevices: 7/7
+  Subdevice #0: subdevice #0
+  Subdevice #1: subdevice #1
+  Subdevice #2: subdevice #2
+  Subdevice #3: subdevice #3
+  Subdevice #4: subdevice #4
+  Subdevice #5: subdevice #5
+  Subdevice #6: subdevice #6
+card 0: ALSA [bcm2835 ALSA], device 1: bcm2835 IEC958/HDMI [bcm2835 IEC958/HDMI]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: ALSA [bcm2835 ALSA], device 2: bcm2835 IEC958/HDMI1 [bcm2835 IEC958/HDMI1]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 1: Amanero [Combo384 Amanero], device 0: USB Audio [USB Audio]
+  Subdevices: 0/1
+  Subdevice #0: subdevice #0
+
+```
+So for my card to work the asound.conf must be ::\
+```
+pcm.sound_out {
+type hw
+card 1        <------- card 1
+device 0      <------- device 0
+}
+```
 
 If you make changes to it, it will be preserved doing reboot's if you remember to do a\
 ```sudo filetool.sh -b```
