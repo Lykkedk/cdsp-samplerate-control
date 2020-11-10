@@ -53,8 +53,42 @@ home
             └── config_template.yml
 ```
 I have simplified the asound.conf file, in the .tcz file.
+```
+#    --- sound_out is the real hardware card ---
+pcm.sound_out {
+type hw
+card 0
+device 0
+}
+
+#   --- CamillaDSP with Seashell's alsa-plugin ---
+# Howto here : https://github.com/scripple/alsa_cdsp 
+pcm.camilladsp {
+    type cdsp
+      cpath "/usr/local/bin/camilladsp"
+      config_in "/home/tc/camilladsp/template/config_template.yml"
+      config_out "/home/tc/camilladsp/camilladsp.yaml"
+      # -p "1234"
+      cargs [
+        -l warn
+      ]
+      channels 2
+      rates = [
+        44100 
+        48000 
+        88200 
+        96000
+        176400
+        192000
+        352800
+        384000
+      ]
+}
+```
+
 If you make changes to it, it will be preserved doing reboot's if you remember to do a\
 ```sudo filetool.sh -b```
 
-
+In pCP's webinterface, choose camilladsp as output device, and restart squeezelite... It should work.\
+Tested on my RPI3 testrig + a clean install on an RPI4
 
