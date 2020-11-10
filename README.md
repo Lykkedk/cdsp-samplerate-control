@@ -30,9 +30,13 @@ The piCore/piCoreplayer installs the .tzc extension, which is a bit like a compr
         └── tce.installed
             └── seashell_alsa
 ```
+The camilladsp.tar.gz decrompress itself into and creates the /home/tc/camilladsp directory the first time the seashell_alsa.tcz is executed\
+The asound.conf.tar.gz decompress to /etc/asound.conf, keeping a backup of the original at the camilladsp dir so to preserve a user modified\
+asound.conf file.
+### BUT please be aware that if you allready have a camilladsp directory it will be owerwritten.
 
-
-```home
+```
+home
 └── tc
     └── camilladsp
         ├── camilladsp.yaml
@@ -48,3 +52,5 @@ The piCore/piCoreplayer installs the .tzc extension, which is a bit like a compr
         └── template
             └── config_template.yml
 ```
+
+
