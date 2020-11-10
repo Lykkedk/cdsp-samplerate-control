@@ -12,5 +12,3 @@
 
 
 ```tce-load -wi python3.6 && pcp-load -u https://sourceforge.net/projects/cdsp-samplerate-control/files/10.x/armv7/tcz -wi seashell_alsa.tcz```
-$$\alpha$$
-
