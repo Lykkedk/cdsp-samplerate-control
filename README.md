@@ -30,3 +30,21 @@ The piCore/piCoreplayer installs the .tzc extension, which is a bit like a compr
         └── tce.installed
             └── seashell_alsa
 ```
+
+
+```home
+└── tc
+    └── camilladsp
+        ├── camilladsp.yaml
+        ├── coeffs
+        ├── configs
+        ├── filters
+        │   ├── 176400
+        │   ├── 192000
+        │   ├── 44100
+        │   ├── 48000
+        │   ├── 88200
+        │   └── 96000
+        └── template
+            └── config_template.yml
+```
