@@ -107,7 +107,7 @@ card 1: Amanero [Combo384 Amanero], device 0: USB Audio [USB Audio]
   Subdevice #0: subdevice #0
 
 ```
-So for my card to work the asound.conf must be ::\
+So for my card to work the asound.conf must be ::
 ```
 pcm.sound_out {
 type hw
@@ -121,6 +121,8 @@ If you make changes to it, it will be preserved doing reboot's if you remember t
 
 In pCP's webinterface, choose camilladsp as output device, and restart squeezelite... It should work.\
 Tested on my RPI3 testrig + a clean install on an RPI4
+
+Good luck!
 
 JesperLykke (user Lykkedk at diyaudio.com)
 
