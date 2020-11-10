@@ -13,7 +13,7 @@
 
 This "one-liner" installs [user@diyaudio seashell]'s alsa_plugin for use with the camilladsp/squeezelite combo.
 
-Simply login to your'e piCorePlayer with ssh, and execute the command below ::
+Simply login to your'e piCorePlayer with ssh, and execute the command below ::\
 ```tce-load -wi python3.6 && pcp-load -u https://sourceforge.net/projects/cdsp-samplerate-control/files/10.x/armv7/tcz -wi seashell_alsa.tcz```
 
 The piCore/piCoreplayer installs the .tzc extension, which is a bit like a compressed package on the filesystem like this ::
