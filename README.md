@@ -17,7 +17,7 @@ Simply login to your'e piCorePlayer with ssh, and execute the command below ::
 ```tce-load -wi python3.6 && pcp-load -u https://sourceforge.net/projects/cdsp-samplerate-control/files/10.x/armv7/tcz -wi seashell_alsa.tcz```
 
 The piCore/piCoreplayer installs the .tzc extension, which is a bit like a compressed package on the filesystem like this ::
-
+```
 ├── home
 │   └── tc
 │       ├── asound.conf.tar.gz
@@ -29,4 +29,4 @@ The piCore/piCoreplayer installs the .tzc extension, which is a bit like a compr
         │       └── libasound_module_pcm_cdsp.so
         └── tce.installed
             └── seashell_alsa
-
+```
