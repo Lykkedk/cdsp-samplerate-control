@@ -8,9 +8,6 @@
 
 *Seashell's excellent setup https://github.com/scripple/alsa_cdsp*
 
-*File's needed for Camilla GUI (Backend server) https://github.com/Lykkedk/cdsp-samplerate-control/releases/tag/cdsp_src_v0.1*
-(StartServer.sh & InstallWebInterface.sh)
-
 This "one-liner" installs [user@diyaudio seashell]'s alsa_plugin for use with the camilladsp/squeezelite combo.
 
 Simply login to your'e piCorePlayer with ssh, and execute the command below ::\
@@ -91,4 +88,6 @@ If you make changes to it, it will be preserved doing reboot's if you remember t
 
 In pCP's webinterface, choose camilladsp as output device, and restart squeezelite... It should work.\
 Tested on my RPI3 testrig + a clean install on an RPI4
+
+JesperLykke (user Lykkedk at diyaudio.com)
 
