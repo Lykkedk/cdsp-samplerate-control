@@ -1,5 +1,6 @@
 # cdsp-samplerate-control
 ## SuperPlayer's CamillaDSP SampleRate Controller & pCP Combo
+### Verified on piCorePlayer 6.1 on an Raspberry Pi 4
 
 *Help / thread here on diyaudio https://www.diyaudio.com/forums/pc-based/361429-superplayer-ugly-hacked-squeezelite-samplerate-auto-switching-machine.html#post6372682*
 
