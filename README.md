@@ -4,6 +4,8 @@
 ### SuperPlayer's CamillaDSP SampleRate Controller & pCP Combo
 ### Verified on piCorePlayer 6.1 on an Raspberry Pi 3 & 4
 
+*(I'am also working on a script which installs the webinterface for camilladsp, will be released soon i guess.)*
+
 *Help / thread here on diyaudio https://www.diyaudio.com/forums/pc-based/361429-superplayer-ugly-hacked-squeezelite-samplerate-auto-switching-machine.html#post6372682*
 
 *Camilladsp https://www.diyaudio.com/forums/pc-based/349818-camilladsp-cross-platform-iir-fir-engine-crossovers-correction-etc.html*
@@ -130,7 +132,7 @@ device 0      <------- device 0
 If you make changes to it, it will be preserved doing reboot's if you remember to do a\
 ```sudo filetool.sh -b```
 
-In pCP's webinterface, choose camilladsp as output device, and restart squeezelite... It should work.\
+In pCP's webinterface, choose camilladsp as output device, and restart squeezelite... It should work.
 
 Good luck!
 
