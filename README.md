@@ -1,6 +1,7 @@
-# cdsp-samplerate-control
-### The alsa plugin is created by user seashell at diyaudio.com... Good work!
+# cdsp-samplerate-control - Alsa plugin [samplerate auto changer] for camilladsp
 *Only for betatesters or the brave one's - ! ;-)*
+
+### The alsa plugin is created by user seashell at diyaudio.com... Good work!
 
 ### SuperPlayer's CamillaDSP SampleRate Controller & pCP Combo
 ### Verified on piCorePlayer 6.1 on an Raspberry Pi 3 & 4
