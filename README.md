@@ -1,7 +1,6 @@
-## SuperPlayer's CamillaDSP SampleRate Controller & pCP Combo
+## SuperPlayer's CamillaDSP SampleRate Controller & pCP Combo *Only for betatesters or the brave one's - ! ;-)*
 
 ### cdsp-samplerate-control - Alsa plugin [samplerate auto changer] for camilladsp
-*Only for betatesters or the brave one's - ! ;-)*
 
 ### The alsa plugin is created by user seashell at diyaudio.com... 
 
