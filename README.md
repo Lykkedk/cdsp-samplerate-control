@@ -1,4 +1,4 @@
-# cdsp-samplerate-control - Alsa plugin [samplerate auto changer] for camilladsp
+## cdsp-samplerate-control - Alsa plugin [samplerate auto changer] for camilladsp
 *Only for betatesters or the brave one's - ! ;-)*
 
 ### The alsa plugin is created by user seashell at diyaudio.com... Good work!
