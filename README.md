@@ -1,5 +1,5 @@
 # cdsp-samplerate-control
-# The alsa plugin is created by user seashell at diyaudio.com... Good work!
+### The alsa plugin is created by user seashell at diyaudio.com... Good work!
 *Only for betatesters or the brave one's - ! ;-)*
 
 ### SuperPlayer's CamillaDSP SampleRate Controller & pCP Combo
