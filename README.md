@@ -1,5 +1,5 @@
 # cdsp-samplerate-control
-*Only for betatesters or the brave one's - this is just a quick howto*
+*Only for betatesters or the brave one's - ! ;-)*
 
 ### SuperPlayer's CamillaDSP SampleRate Controller & pCP Combo
 ### Verified on piCorePlayer 6.1 on an Raspberry Pi 3 & 4
@@ -10,7 +10,7 @@
 
 *Seashell's excellent setup https://github.com/scripple/alsa_cdsp*
 
-This "one-liner" installs [user@diyaudio seashell]'s alsa_plugin for use with the camilladsp/squeezelite combo.
+This command below installs [user@diyaudio seashell]'s alsa_plugin for use with the camilladsp/squeezelite combo.
 
 Simply login to your'e piCorePlayer with ssh, and execute the command below ::\
 ```ssh tc@192.168.x.x``` Default password = piCore
@@ -55,6 +55,8 @@ home
             └── config_template.yml
 ```
 Along with some other dependicies, the camilladsp.tcz is also loaded and installed in /usr/local/bin.\
+I compressed and did a .tcz with the camilladsp v0.4.0-Beta6. When camilladsp.tcz is loaded/installed it paste a file in the homedir. telling\
+which version is installed.\
 When done, move on and edit the asound.conf file...
 
 I have simplified the asound.conf file, in the .tcz file.
@@ -129,7 +131,6 @@ If you make changes to it, it will be preserved doing reboot's if you remember t
 ```sudo filetool.sh -b```
 
 In pCP's webinterface, choose camilladsp as output device, and restart squeezelite... It should work.\
-Tested on my RPI3 testrig + a clean install on an RPI4
 
 Good luck!
 
