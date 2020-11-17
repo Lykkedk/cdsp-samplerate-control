@@ -1,7 +1,7 @@
 ## SuperPlayer's CamillaDSP SampleRate Controller & pCP Combo 
 *Only for betatesters or the brave one's - ! ;-)*
 
-
+*There are maybe some issues downloading the .tcz from SourceForge, sometimes it's working, sometime one had to try several time's... This is duo to the way downloading is done on SourceForge; Sorry about that, but as writing i cannot make it work on Github.*
 
 ### cdsp-samplerate-control - Alsa plugin [samplerate auto changer] for camilladsp
 
